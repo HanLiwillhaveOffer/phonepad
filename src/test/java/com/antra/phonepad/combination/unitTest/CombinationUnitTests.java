@@ -9,7 +9,7 @@ import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static io.restassured.module.mockmvc.RestAssuredMockMvc.given;
-import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Matchers.anyString;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
 @RunWith(SpringRunner.class)
@@ -42,10 +42,20 @@ public class CombinationUnitTests {
     @Autowired
     CombinationService combinationService;
 
+    @Before
+    public void configMock(){
+        MockitoAnnotations.initMocks(this);
+        RestAssuredMockMvc.standaloneSetup(new CombinationController(combinationService));
+    }
+
     @Test
     public void testGetCombination(){
-        Assert.assertTrue(combinationService.getCombination("2253").contains("cake"));
-        Assert.assertTrue(combinationService.getCombination("1000").size()==0);
+        NumberRequest  testNumber = new NumberRequest("217","8198","210");
+        Mockito.when(combinationService.getCombination(anyString())).thenReturn(new ArrayList<>());
+        given().accept("application/json").contentType("application/json").body(testNumber).post("/phonePad/combination").peek().
+                then().assertThat()
+                .statusCode(200)
+                .body(Matchers.equalTo(new ArrayList()));
     }
 
     @Test
