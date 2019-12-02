@@ -17,16 +17,15 @@ public class WordResponse {
 
 
 
-    public WordResponse(List<String> first,List<String> second,List<String> third){
-        if(first.size()!=0&&second.size()!=0&&third.size()!=0){
+    public WordResponse(String first,List<String> second,List<String> third){
+        if(second.size()!=0&&third.size()!=0){
             result = new ArrayList<>();
         }
-        for(String f:first){
-            for(String s:second){
-                for(String t:third){
-                    String tmp = f+"-"+s+"-"+t;
-                    result.add(tmp);
-                }
+
+        for(String s:second){
+            for(String t:third){
+                String tmp = first+"-"+s+"-"+t;
+                result.add(tmp);
             }
         }
         if(result==null){
