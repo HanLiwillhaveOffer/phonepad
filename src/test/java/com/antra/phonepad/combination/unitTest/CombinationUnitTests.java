@@ -39,7 +39,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 public class CombinationUnitTests {
 
-    @Autowired
+    @Mock
     CombinationService combinationService;
 
     @Before
@@ -51,11 +51,13 @@ public class CombinationUnitTests {
     @Test
     public void testGetCombination(){
         NumberRequest  testNumber = new NumberRequest("217","8198","210");
-        Mockito.when(combinationService.getCombination(anyString())).thenReturn(new ArrayList<>());
+        List<String> testOutput = new ArrayList<>();
+        testOutput.add("abc-cde-fds");
+        Mockito.when(combinationService.getCombination("217")).thenReturn(testOutput);
         given().accept("application/json").contentType("application/json").body(testNumber).post("/phonePad/combination").peek().
                 then().assertThat()
                 .statusCode(200)
-                .body(Matchers.equalTo(new ArrayList()));
+                .body(Matchers.equalTo("{\"message\":\"No Valid combination\",\"result\":null}"));
     }
 
     @Test
