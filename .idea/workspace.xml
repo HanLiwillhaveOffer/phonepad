@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5c07999-8f73-4ffa-b4c4-14c6758765fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Controller/CombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Controller/CombinationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Service/CombinationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Service/CombinationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination.iml" beforeDir="false" afterPath="$PROJECT_DIR$/combination.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/antra/phonepad/combination/CombinationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/antra/phonepad/combination/CombinationApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/antra/phonepad/combination/Service/CombinationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/antra/phonepad/combination/Service/CombinationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/antra/phonepad/combination/CombinationApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/antra/phonepad/combination/CombinationApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,31 +67,33 @@
     <session id="1033134823">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="5" />
+          <entry key="class" value="5" />
+          <entry key="java" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="5" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="6" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="985" />
+          <entry key="java" value="1410" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="985" />
+          <entry key="JAVA" value="1410" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -104,8 +105,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/antra/phonepad/combination/CombinationApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="408">
+              <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/vo/WordResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.jar!/org/springframework/test/web/servlet/result/MockMvcResultMatchers.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+              <folding>
+                <element signature="e#3425#3426#0" expanded="true" />
+                <element signature="e#3475#3476#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="217">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -122,9 +148,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Controller/CombinationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="219">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="40" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1857#1858#0" expanded="true" />
                 <element signature="e#1888#1889#0" expanded="true" />
               </folding>
@@ -199,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/antra/phonepad/combination/unitTest/CombinationUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/util/WordSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/util/Mapper.java" />
@@ -213,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/CombinationApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Service/CombinationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Controller/CombinationController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/antra/phonepad/combination/CombinationApplicationTests.java" />
       </list>
     </option>
@@ -231,10 +258,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="647" />
-    <option name="y" value="135" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -339,6 +365,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="combination" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="combination" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phonepad" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -356,7 +387,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/33954/Web Project/java8_demo-master/phonepad/src/main/java/com/antra/phonepad/combination/CombinationApplication.java&#10;{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580764541297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580765635367" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -378,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CombinationApplicationTests.testComb">
+  <component name="RunManager" selected="JUnit.CombinationApplicationTests.getCombinationTest">
     <configuration name="CombinationApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="combination" />
       <extension name="coverage">
@@ -389,6 +420,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.antra.phonepad.combination" />
       <option name="MAIN_CLASS_NAME" value="com.antra.phonepad.combination.CombinationApplicationTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationApplicationTests.getCombinationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="combination" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.antra.phonepad.combination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.antra.phonepad.combination" />
+      <option name="MAIN_CLASS_NAME" value="com.antra.phonepad.combination.CombinationApplicationTests" />
+      <option name="METHOD_NAME" value="getCombinationTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -425,22 +472,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationUnitTests.testGetUserFromDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="combination" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.antra.phonepad.combination.unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.antra.phonepad.combination.unitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.antra.phonepad.combination.unitTest.CombinationUnitTests" />
-      <option name="METHOD_NAME" value="testGetUserFromDB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CombinationUnitTests.testWordSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="combination" />
       <extension name="coverage">
@@ -467,18 +498,18 @@
     <list>
       <item itemvalue="Spring Boot.CombinationApplication" />
       <item itemvalue="JUnit.CombinationUnitTests.testWordSet" />
-      <item itemvalue="JUnit.CombinationUnitTests.testGetUserFromDB" />
       <item itemvalue="JUnit.CombinationUnitTests.testGetCombination" />
       <item itemvalue="JUnit.CombinationApplicationTests.testComb" />
       <item itemvalue="JUnit.CombinationApplicationTests" />
+      <item itemvalue="JUnit.CombinationApplicationTests.getCombinationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CombinationApplicationTests.getCombinationTest" />
         <item itemvalue="JUnit.CombinationApplicationTests.testComb" />
         <item itemvalue="JUnit.CombinationApplicationTests" />
         <item itemvalue="JUnit.CombinationUnitTests.testGetCombination" />
         <item itemvalue="JUnit.CombinationUnitTests.testWordSet" />
-        <item itemvalue="JUnit.CombinationUnitTests.testGetUserFromDB" />
       </list>
     </recent_temporary>
   </component>
@@ -496,14 +527,11 @@
       <workItem from="1575047777106" duration="13521000" />
       <workItem from="1575150157462" duration="9871000" />
       <workItem from="1575235465269" duration="5786000" />
-      <workItem from="1580761676216" duration="2304000" />
+      <workItem from="1580761676216" duration="3399000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CombinationApplicationTests_testComb - 2020.02.03 at 15h 31m 56s.xml">
-      <configuration name="CombinationApplicationTests.testComb" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CombinationApplicationTests_testComb - 2020.02.03 at 15h 42m 33s.xml">
       <configuration name="CombinationApplicationTests.testComb" configurationId="JUnit" />
     </history-entry>
@@ -531,15 +559,18 @@
     <history-entry file="CombinationApplicationTests_testComb - 2020.02.03 at 15h 55m 32s.xml">
       <configuration name="CombinationApplicationTests.testComb" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CombinationApplicationTests_getCombinationTest - 2020.02.03 at 16h 33m 31s.xml">
+      <configuration name="CombinationApplicationTests.getCombinationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36329000" />
+    <option name="totallyTimeSpent" value="37424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -549,7 +580,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2591508" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43484625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40263543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -664,16 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/vo/WordResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/util/Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -728,22 +749,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/CombinationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/combination.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Service/CombinationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,21 +762,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/CombinationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.jar!/org/springframework/test/web/servlet/result/ContentResultMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1099">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.jar!/org/springframework/test/web/servlet/result/MockMvcResultMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+          <folding>
+            <element signature="e#3425#3426#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/mapper/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/Controller/CombinationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="219">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="40" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1857#1858#0" expanded="true" />
             <element signature="e#1888#1889#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antra/phonepad/combination/vo/WordResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/antra/phonepad/combination/CombinationApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="408">
+          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
         </state>
       </provider>
     </entry>
