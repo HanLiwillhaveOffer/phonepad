@@ -38,6 +38,10 @@ public class CombinationController {
         List<String> third = combinationService.getCombination(number.getThird());
         return new ResponseEntity<WordResponse>(new WordResponse(number.getFirst(),second,third), HttpStatus.OK);
     }
+    @RequestMapping(value="/test",method = RequestMethod.GET)
+    public ResponseEntity<String> get(){
+        return new ResponseEntity<>("OK",HttpStatus.OK);
+    }
 
     @ExceptionHandler(InvalidPhoneNumberException.class)
     public ResponseEntity<ErrorResponse> exceptionHandlerInvalidPhoneNumber(Exception e){

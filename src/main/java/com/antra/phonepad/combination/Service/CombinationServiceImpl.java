@@ -15,11 +15,15 @@ import java.util.Map;
 
 @Service("combinationService")
 public class CombinationServiceImpl implements CombinationService {
-    @Autowired
+
     Mapper map;
+    WordSet wordSet;
 
     @Autowired
-    WordSet wordSet;
+    public CombinationServiceImpl( WordSet wordSet,Mapper map){
+        this.wordSet = wordSet;
+        this.map = map;
+    }
 
     Map<String,List<String>> memo = new HashMap<>();
     public List<String> getCombination(String number){
@@ -28,7 +32,6 @@ public class CombinationServiceImpl implements CombinationService {
         }
         return new ArrayList<>();
     }
-
     public boolean dfs(int index,String number,String tmp){
         if(index>=number.length()){
             if(isWord(tmp)){
