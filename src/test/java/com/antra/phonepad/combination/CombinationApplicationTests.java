@@ -2,6 +2,7 @@ package com.antra.phonepad.combination;
 
 import com.antra.phonepad.combination.Controller.CombinationController;
 import com.antra.phonepad.combination.Service.CombinationService;
+import com.antra.phonepad.combination.Service.CombinationServiceImpl;
 import com.antra.phonepad.combination.util.Mapper;
 import com.antra.phonepad.combination.util.WordSet;
 import com.antra.phonepad.combination.vo.NumberRequest;
@@ -26,6 +27,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import javax.validation.constraints.AssertTrue;
+import javax.xml.ws.Service;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -44,10 +47,21 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-//@SpringBootTest
+@SpringBootTest
 //@AutoConfigureMockMvc
 class CombinationApplicationTests {
 
+	@Autowired
+	WordSet wordSet;
+
+	@Autowired
+	Mapper mapper;
+
+	@Test
+	public void testCombService(){
+		CombinationService combinationService = new CombinationServiceImpl(wordSet,mapper);
+		Assert.assertTrue(combinationService.getCombination("364").contains("dog"));
+	}
 
 	@Test
 	public void testWordSetValidation(){
